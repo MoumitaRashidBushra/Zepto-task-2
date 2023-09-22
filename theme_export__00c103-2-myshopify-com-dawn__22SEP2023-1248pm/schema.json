@@ -1,0 +1,27 @@
+{
+    "name": "Custom Section",
+    "settings": [
+        {
+            "type": "text",
+            "label": "Title",
+            "id": "title",
+            "default": "Custom Section Title"
+        },
+        {
+            "type": "textarea",
+            "label": "Description",
+            "id": "description",
+            "default": "This is a custom section description."
+        }
+    ],
+    "presets": [
+        {
+            "category": "Custom Sections",
+            "name": "Custom Section",
+            "settings": {
+                "title": "Custom Section Title",
+                "description": "This is a custom section description."
+            }
+        }
+    ]
+}
